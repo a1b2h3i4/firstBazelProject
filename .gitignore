@@ -1,0 +1,46 @@
+# Ignore Bazel output directory
+bazel-*
+
+# Ignore build and temporary files
+/build/
+/out/
+/bin/
+/target/
+
+# Ignore IntelliJ IDEA files
+.idea/
+/*.iml
+*.iws
+
+# Ignore Eclipse files
+.project
+.classpath
+.settings/
+
+# Ignore VS Code files
+.vscode/
+
+# Ignore Java compiled class files and logs
+*.class
+*.log
+
+# Ignore Maven target directory
+/target/
+
+# Ignore Bazel related temporary files
+/bazel-out/
+/bazel-bin/
+/bazel-genfiles/
+/bazel-testlogs/
+/bazel-workspace/
+
+# Ignore coverage reports
+/lcov-report/
+
+# Ignore user-specific files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+MODULE.bazel
+MODULE.bazel.lock
